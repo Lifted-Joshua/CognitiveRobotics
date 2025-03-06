@@ -1,2 +1,2 @@
-custom_gazebo_world:path_planning:pp_msgs:srv_client_plugin:turtlebot3_model
+custom_gazebo_world:navigation/amcl:navigation/base_local_planner:navigation/carrot_planner:navigation/clear_costmap_recovery:navigation/costmap_2d:navigation/dwa_local_planner:navigation/fake_localization:navigation/global_planner:navigation/map_server:navigation/move_base:navigation/move_slow_and_clear:navigation/nav_core:navigation/navfn:navigation/navigation:navigation/rotate_recovery:navigation/voxel_grid:path_planning:pp_msgs:srv_client_plugin:turtlebot3_model
 -DCATKIN_DEVEL_PREFIX=/home/ubuntu/assessment1_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ubuntu/assessment1_ws/install -G Unix Makefiles

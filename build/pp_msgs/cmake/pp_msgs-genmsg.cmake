@@ -24,7 +24,7 @@ add_custom_target(_pp_msgs_generate_messages_check_deps_${_filename}
 
 get_filename_component(_filename "/home/ubuntu/assessment1_ws/src/pp_msgs/srv/MoveItPlugin.srv" NAME_WE)
 add_custom_target(_pp_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pp_msgs" "/home/ubuntu/assessment1_ws/src/pp_msgs/srv/MoveItPlugin.srv" "std_msgs/Header:trajectory_msgs/JointTrajectoryPoint:trajectory_msgs/JointTrajectory"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "pp_msgs" "/home/ubuntu/assessment1_ws/src/pp_msgs/srv/MoveItPlugin.srv" "trajectory_msgs/JointTrajectoryPoint:trajectory_msgs/JointTrajectory:std_msgs/Header"
 )
 
 #
@@ -44,7 +44,7 @@ _generate_srv_cpp(pp_msgs
 _generate_srv_cpp(pp_msgs
   "/home/ubuntu/assessment1_ws/src/pp_msgs/srv/MoveItPlugin.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/trajectory_msgs/cmake/../msg/JointTrajectoryPoint.msg;/opt/ros/noetic/share/trajectory_msgs/cmake/../msg/JointTrajectory.msg"
+  "/opt/ros/noetic/share/trajectory_msgs/cmake/../msg/JointTrajectoryPoint.msg;/opt/ros/noetic/share/trajectory_msgs/cmake/../msg/JointTrajectory.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/pp_msgs
 )
 
@@ -85,7 +85,7 @@ _generate_srv_eus(pp_msgs
 _generate_srv_eus(pp_msgs
   "/home/ubuntu/assessment1_ws/src/pp_msgs/srv/MoveItPlugin.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/trajectory_msgs/cmake/../msg/JointTrajectoryPoint.msg;/opt/ros/noetic/share/trajectory_msgs/cmake/../msg/JointTrajectory.msg"
+  "/opt/ros/noetic/share/trajectory_msgs/cmake/../msg/JointTrajectoryPoint.msg;/opt/ros/noetic/share/trajectory_msgs/cmake/../msg/JointTrajectory.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/pp_msgs
 )
 
@@ -126,7 +126,7 @@ _generate_srv_lisp(pp_msgs
 _generate_srv_lisp(pp_msgs
   "/home/ubuntu/assessment1_ws/src/pp_msgs/srv/MoveItPlugin.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/trajectory_msgs/cmake/../msg/JointTrajectoryPoint.msg;/opt/ros/noetic/share/trajectory_msgs/cmake/../msg/JointTrajectory.msg"
+  "/opt/ros/noetic/share/trajectory_msgs/cmake/../msg/JointTrajectoryPoint.msg;/opt/ros/noetic/share/trajectory_msgs/cmake/../msg/JointTrajectory.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/pp_msgs
 )
 
@@ -167,7 +167,7 @@ _generate_srv_nodejs(pp_msgs
 _generate_srv_nodejs(pp_msgs
   "/home/ubuntu/assessment1_ws/src/pp_msgs/srv/MoveItPlugin.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/trajectory_msgs/cmake/../msg/JointTrajectoryPoint.msg;/opt/ros/noetic/share/trajectory_msgs/cmake/../msg/JointTrajectory.msg"
+  "/opt/ros/noetic/share/trajectory_msgs/cmake/../msg/JointTrajectoryPoint.msg;/opt/ros/noetic/share/trajectory_msgs/cmake/../msg/JointTrajectory.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/pp_msgs
 )
 
@@ -208,7 +208,7 @@ _generate_srv_py(pp_msgs
 _generate_srv_py(pp_msgs
   "/home/ubuntu/assessment1_ws/src/pp_msgs/srv/MoveItPlugin.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/trajectory_msgs/cmake/../msg/JointTrajectoryPoint.msg;/opt/ros/noetic/share/trajectory_msgs/cmake/../msg/JointTrajectory.msg"
+  "/opt/ros/noetic/share/trajectory_msgs/cmake/../msg/JointTrajectoryPoint.msg;/opt/ros/noetic/share/trajectory_msgs/cmake/../msg/JointTrajectory.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/pp_msgs
 )
 

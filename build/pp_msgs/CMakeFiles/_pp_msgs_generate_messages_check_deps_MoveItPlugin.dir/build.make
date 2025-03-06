@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/ubuntu/assessment1_ws/build
 include pp_msgs/CMakeFiles/_pp_msgs_generate_messages_check_deps_MoveItPlugin.dir/progress.make
 
 pp_msgs/CMakeFiles/_pp_msgs_generate_messages_check_deps_MoveItPlugin:
-	cd /home/ubuntu/assessment1_ws/build/pp_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py pp_msgs /home/ubuntu/assessment1_ws/src/pp_msgs/srv/MoveItPlugin.srv std_msgs/Header:trajectory_msgs/JointTrajectoryPoint:trajectory_msgs/JointTrajectory
+	cd /home/ubuntu/assessment1_ws/build/pp_msgs && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py pp_msgs /home/ubuntu/assessment1_ws/src/pp_msgs/srv/MoveItPlugin.srv trajectory_msgs/JointTrajectoryPoint:trajectory_msgs/JointTrajectory:std_msgs/Header
 
 _pp_msgs_generate_messages_check_deps_MoveItPlugin: pp_msgs/CMakeFiles/_pp_msgs_generate_messages_check_deps_MoveItPlugin
 _pp_msgs_generate_messages_check_deps_MoveItPlugin: pp_msgs/CMakeFiles/_pp_msgs_generate_messages_check_deps_MoveItPlugin.dir/build.make
